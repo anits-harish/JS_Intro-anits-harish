@@ -68,7 +68,7 @@ function ParseNumber(str){
 			}
 			i++;
 		}
-		//To get the floating point number
+		//To get the floating point number,get the number to be divided
 		if(ptr!=-1){
 			power=(i-ptr);
 			w="1000000000";
